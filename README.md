@@ -1,4 +1,4 @@
-<p align="center"><a href='https://svgshare.com/s/jEp' ><img src='https://svgshare.com/i/jEp.svg' title='hospital' width="400"/></a></p>
+<p align="center"><a href='https://svgshare.com/s/jEp' ><img src='https://svgshare.com/i/jEp.svg' title='hospital' width="200"/></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
