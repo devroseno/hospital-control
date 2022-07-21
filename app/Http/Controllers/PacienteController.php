@@ -35,7 +35,7 @@ class PacienteController extends Controller
 			
 			foreach ($pacientes as $paciente) {
 				$output .= '<tr>
-                <td><img src="storage/images/' . $paciente->avatar . '" width="50" class="img-thumbnail rounded-circle"></td>
+                <td><img src="storage/images/' . $paciente->avatar . '" style="width: 50px; height:50px; border-radius:100%;" class="img-thumbnail rounded-circle"></td>
                 <td>' . $paciente->nome . '</td>
                 <td>' . $paciente->idade . '</td>
                 <td>' . $paciente->cpf . '</td>
