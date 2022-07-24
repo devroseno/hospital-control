@@ -38,9 +38,9 @@ class Paciente extends Model
             $contar = count($info);
             if($contar >= 1 && $contar <= 5) {
                 $status = $this->attributes['status'] = $status[0];
-            }elseif($contar >= 6 && $contar <= 9) {
+            }elseif($contar >= 6 && $contar <= 7) {
                 $status = $this->attributes['status'] = $status[1];
-            }elseif($contar >= 10) {
+            }elseif($contar >= 8) {
                 $status = $this->attributes['status'] = $status[2];
             }
         }else {
@@ -54,7 +54,7 @@ class Paciente extends Model
             '<i class="bi bi-check-circle" style="color: green;"></i> SINTOMAS INSUFICIENTES',
             '<i class="bi bi-bell" style="color: orange;"></i> POTENCIAL INFECTADO',
             '<i class="bi bi-exclamation-triangle" style="color: red;"></i> POSSÍVEL INFECTADO',
-            '<i class="bi bi-exclamation-circle" style="color: blue;"></i> PACIENTE NÃO ATENDIDO'
+            '<i class="bi bi-exclamation-circle" style="color: blue;"></i> PACIENTE SEM SINTOMAS'
         ]);
     }
 }

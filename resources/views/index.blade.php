@@ -135,7 +135,7 @@
               </div>
             </div>
           </div>
-          {{-- CHECKBOX DE SINTOMAS - ADD (INICIO) --}}
+          {{-- CHECKBOX DE SINTOMAS - ADD (FIM) --}}
 
         </div>
         <div class="modal-footer">
