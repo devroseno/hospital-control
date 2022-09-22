@@ -5,9 +5,9 @@ function CPF(){"user_strict";function r(r){for(var t=null,n=0;9>n;++n)t+=r.toStr
   $("#cpf").keyup(function(){
   var teste = CPF.valida($(this).val());
   $("#resposta2").html(teste);
-  if(teste == "CPF Válido!"){ 
+  if(teste == "CPF Válido!"){
       $("#edit_paciente_btn").removeAttr("disabled");
-  }else {    
+  }else {
       $("#edit_paciente_btn").attr("disabled",true);
   }
   });
@@ -15,11 +15,11 @@ function CPF(){"user_strict";function r(r){for(var t=null,n=0;9>n;++n)t+=r.toStr
   $("#cpf").blur(function(){
   var teste= CPF.valida($(this).val());
   $("#resposta2").html(teste);
-  if(teste == "CPF Válido!"){ 
+  if(teste == "CPF Válido!"){
       $("#edit_paciente_btn").removeAttr("disabled");
   } else {
       $("#edit_paciente_btn").attr("disabled",true);
-  } 
+  }
   });
-  
+
 

@@ -32,7 +32,7 @@ class Paciente extends Model
         return $sintomas;
     }
 
-    protected function defineStatus(array $status) {
+    protected function definirStatus(array $status) {
         if(isset($this->attributes['sintomas'])) {
             $info = json_decode($this->attributes['sintomas']);
             $contar = count($info);
@@ -50,7 +50,7 @@ class Paciente extends Model
     }
 
     function getStatusAttribute() {
-        return $this->defineStatus([
+        return $this->definirStatus([
             '<i class="bi bi-check-circle" style="color: green;"></i> SINTOMAS INSUFICIENTES',
             '<i class="bi bi-bell" style="color: orange;"></i> POTENCIAL INFECTADO',
             '<i class="bi bi-exclamation-triangle" style="color: red;"></i> POSSÍVEL INFECTADO',
