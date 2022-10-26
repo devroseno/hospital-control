@@ -37,6 +37,11 @@ Sistema designado à hospitais, upas e clinicas. Indispensável no combate ao Co
 - php artisan storage:link
 - php artisan serve
 
+## ATENÇÃO:
+
+- Branch master: Necessário o docker para rodar o projeto
+- Branch main: Não é necessário o uso do docker
+
 ## Licença
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
